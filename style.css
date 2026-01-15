@@ -203,6 +203,7 @@
         .skill-icon {
             font-size: 3.5rem;
             margin-bottom: 20px;
+
         }
 
         .skill-card h3 {
@@ -421,6 +422,10 @@
             color: #a1a1a6;
             padding-top: 40px;
             border-top: 1px solid #e5e5e7;
+        }
+        .skill-html {
+            width: 200px;
+            height: 200px;
         }
         .skill-css {
             width: 200px;
