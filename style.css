@@ -4,20 +4,26 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-image: url('matrix.jpg');
+            
         }
-
+      
     
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            color: #1d1d1f;
+            color: #ffffff;
             background-color: #ffffff;
             line-height: 1.6;
+            
+            
+         
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
+           
         }
       header {
             background-color: #ffffff;
@@ -28,11 +34,13 @@
             z-index: 100;
             backdrop-filter: blur(20px);
             background-color: rgba(255, 255, 255, 0.8);
+            
+         
         }
         .about-text p {
              font-size: 2.4rem;
             font-weight: 700;
-            color: #1d1d1f;
+            color: #ffffff;
             margin-bottom: 24px;
             letter-spacing: -0.5px;
         }
@@ -41,13 +49,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-          
+            
         }
 
         .logo {
             font-size: 1.8rem;
             font-weight: 600;
             letter-spacing: -0.5px;
+            color: #ffffff;
+       
 
         }
 
@@ -55,11 +65,11 @@
             display: flex;
             list-style: none;
             gap: 40px;
-           
+            color: #ffffff;
         }
 
         .nav-links a {
-            color: #1d1d1f;
+            color: #ffffff;
             text-decoration: none;
             font-weight: 500;
             font-size: 1rem;
@@ -74,7 +84,7 @@
    
         .hero {
             background-color: #ffffff;
-            color: #1d1d1f;
+            color: #ffffff;
             padding: 120px 0;
             text-align: center;
             display: flex;
@@ -93,7 +103,7 @@
 
         .hero p {
             font-size: 1.3rem;
-            color: #000000;
+            color: #ffffff;
             margin-bottom: 40px;
             max-width: 600px;
             margin-left: auto;
